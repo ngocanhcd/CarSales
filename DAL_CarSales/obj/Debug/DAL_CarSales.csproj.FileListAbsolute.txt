@@ -1,0 +1,6 @@
+D:\CODE\CarSales\DAL_CarSales\bin\Debug\DAL_CarSales.dll
+D:\CODE\CarSales\DAL_CarSales\bin\Debug\DAL_CarSales.pdb
+D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.csproj.AssemblyReference.cache
+D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.csproj.CoreCompileInputs.cache
+D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.dll
+D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.pdb

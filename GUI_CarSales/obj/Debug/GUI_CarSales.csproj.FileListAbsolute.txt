@@ -1,0 +1,16 @@
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\GUI_CarSales.exe.config
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\GUI_CarSales.exe
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\GUI_CarSales.pdb
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\BLL_CarSales.dll
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\Guna.UI2.dll
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\DAL_CarSales.dll
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\BLL_CarSales.pdb
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\DAL_CarSales.pdb
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.csproj.AssemblyReference.cache
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.LoginForm.resources
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.csproj.GenerateResource.cache
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.csproj.CoreCompileInputs.cache
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarS.C15AF68F.Up2Date
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.exe
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.pdb
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.exe.config
