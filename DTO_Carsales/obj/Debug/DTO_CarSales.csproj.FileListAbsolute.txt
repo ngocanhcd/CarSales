@@ -1,0 +1,6 @@
+D:\CODE\CarSales\DTO_Carsales\bin\Debug\DTO_Carsales.dll
+D:\CODE\CarSales\DTO_Carsales\bin\Debug\DTO_Carsales.pdb
+D:\CODE\CarSales\DTO_Carsales\obj\Debug\DTO_CarSales.csproj.AssemblyReference.cache
+D:\CODE\CarSales\DTO_Carsales\obj\Debug\DTO_CarSales.csproj.CoreCompileInputs.cache
+D:\CODE\CarSales\DTO_Carsales\obj\Debug\DTO_Carsales.dll
+D:\CODE\CarSales\DTO_Carsales\obj\Debug\DTO_Carsales.pdb

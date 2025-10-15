@@ -14,3 +14,10 @@ D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarS.C15AF68F.Up2Date
 D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.exe
 D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.pdb
 D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.exe.config
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\DTO_Carsales.dll
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\UTIL_CarSales.dll
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\DTO_Carsales.pdb
+D:\CODE\CarSales\GUI_CarSales\bin\Debug\UTIL_CarSales.pdb
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.Properties.Resources.resources
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.RegisterForm.resources
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.AdminMainForm.resources

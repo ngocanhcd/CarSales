@@ -141,4 +141,42 @@ namespace DTO_Carsales
         public bool Success { get; set; }
         public string Message { get; set; }
     }
+    public class DashboardStatsDTO
+    {
+        public int TotalUsers { get; set; }
+        public int TotalCars { get; set; }
+        public int TotalOrders { get; set; }
+        public decimal TotalRevenue { get; set; }
+        public int TodayOrders { get; set; }
+        public decimal TodayRevenue { get; set; }
+        public int PendingOrders { get; set; }
+        public int CarsInStock { get; set; }
+        public int CarsOutOfStock { get; set; }
+    }
+
+    public class MonthlyRevenueDTO
+    {
+        public int Month { get; set; }
+        public int Year { get; set; }
+        public decimal Revenue { get; set; }
+    }
+
+    public class TopSellingCarDTO
+    {
+        public int CarID { get; set; }
+        public string CarName { get; set; }
+        public string CarTypeName { get; set; }
+        public decimal Price { get; set; }
+        public int TotalSold { get; set; }
+        public decimal TotalRevenue { get; set; }
+    }
+
+    public class RecentOrderDTO
+    {
+        public int OrderID { get; set; }
+        public DateTime OrderDate { get; set; }
+        public string CustomerName { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string Status { get; set; }
+    }
 }

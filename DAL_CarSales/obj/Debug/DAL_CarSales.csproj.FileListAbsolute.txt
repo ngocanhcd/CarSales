@@ -4,3 +4,8 @@ D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.csproj.AssemblyReference.ca
 D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.csproj.CoreCompileInputs.cache
 D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.dll
 D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarSales.pdb
+D:\CODE\CarSales\DAL_CarSales\bin\Debug\DTO_Carsales.dll
+D:\CODE\CarSales\DAL_CarSales\bin\Debug\UTIL_CarSales.dll
+D:\CODE\CarSales\DAL_CarSales\bin\Debug\DTO_Carsales.pdb
+D:\CODE\CarSales\DAL_CarSales\bin\Debug\UTIL_CarSales.pdb
+D:\CODE\CarSales\DAL_CarSales\obj\Debug\DAL_CarS.24C37A46.Up2Date

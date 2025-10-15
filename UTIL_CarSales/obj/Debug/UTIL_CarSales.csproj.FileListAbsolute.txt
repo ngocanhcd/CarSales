@@ -1,0 +1,9 @@
+D:\CODE\CarSales\UTIL_CarSales\bin\Debug\UTIL_CarSales.dll
+D:\CODE\CarSales\UTIL_CarSales\bin\Debug\UTIL_CarSales.pdb
+D:\CODE\CarSales\UTIL_CarSales\bin\Debug\DTO_Carsales.dll
+D:\CODE\CarSales\UTIL_CarSales\bin\Debug\DTO_Carsales.pdb
+D:\CODE\CarSales\UTIL_CarSales\obj\Debug\UTIL_CarSales.csproj.AssemblyReference.cache
+D:\CODE\CarSales\UTIL_CarSales\obj\Debug\UTIL_CarSales.csproj.CoreCompileInputs.cache
+D:\CODE\CarSales\UTIL_CarSales\obj\Debug\UTIL_Car.73BF1C53.Up2Date
+D:\CODE\CarSales\UTIL_CarSales\obj\Debug\UTIL_CarSales.dll
+D:\CODE\CarSales\UTIL_CarSales\obj\Debug\UTIL_CarSales.pdb

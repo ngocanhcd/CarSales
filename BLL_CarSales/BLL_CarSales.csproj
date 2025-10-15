@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DashboardBLL.cs" />
     <Compile Include="UserBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -48,6 +49,10 @@
     <ProjectReference Include="..\DAL_CarSales\DAL_CarSales.csproj">
       <Project>{7f6ee719-de50-4b80-a6d4-3cf6bf752fc6}</Project>
       <Name>DAL_CarSales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO_Carsales\DTO_CarSales.csproj">
+      <Project>{8ff18aba-08ea-44f0-a384-117b4ea4e16d}</Project>
+      <Name>DTO_CarSales</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

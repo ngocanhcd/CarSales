@@ -3,48 +3,99 @@
   "WorkspaceRootPath": "D:\\CODE\\CarSales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FF18ABA-08EA-44F0-A384-117B4EA4E16D}|DTO_Carsales\\DTO_Carsales.csproj|d:\\code\\carsales\\dto_carsales\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF18ABA-08EA-44F0-A384-117B4EA4E16D}|DTO_Carsales\\DTO_Carsales.csproj|solutionrelative:dto_carsales\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|D:\\CODE\\CarSales\\dal_carsales\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|solutionrelative:dal_carsales\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|d:\\code\\carsales\\dal_carsales\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|solutionrelative:dal_carsales\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B2A5FFE-C8E0-4B28-9333-A6BF81E0D3B2}|utilities\\utilities.csproj|d:\\code\\carsales\\utilities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B2A5FFE-C8E0-4B28-9333-A6BF81E0D3B2}|utilities\\utilities.csproj|solutionrelative:utilities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\adminmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\adminmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\employeemainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\employeemainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|d:\\code\\carsales\\gui_carsales\\employeemainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\employeemainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BD209E-CEFA-4C2A-BD85-F333E7EF20D9}|BLL_CarSales\\BLL_CarSales.csproj|d:\\code\\carsales\\bll_carsales\\dashboardbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BD209E-CEFA-4C2A-BD85-F333E7EF20D9}|BLL_CarSales\\BLL_CarSales.csproj|solutionrelative:bll_carsales\\dashboardbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|d:\\code\\carsales\\dal_carsales\\dashboarddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|solutionrelative:dal_carsales\\dashboarddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF18ABA-08EA-44F0-A384-117B4EA4E16D}|DTO_Carsales\\DTO_CarSales.csproj|D:\\CODE\\CarSales\\dto_carsales\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF18ABA-08EA-44F0-A384-117B4EA4E16D}|DTO_Carsales\\DTO_CarSales.csproj|solutionrelative:dto_carsales\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GUI_CarSales||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7BD209E-CEFA-4C2A-BD85-F333E7EF20D9}|BLL_CarSales\\BLL_CarSales.csproj|D:\\CODE\\CarSales\\bll_carsales\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7BD209E-CEFA-4C2A-BD85-F333E7EF20D9}|BLL_CarSales\\BLL_CarSales.csproj|solutionrelative:bll_carsales\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|D:\\CODE\\CarSales\\dal_carsales\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|solutionrelative:dal_carsales\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|D:\\CODE\\CarSales\\dal_carsales\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F6EE719-DE50-4B80-A6D4-3CF6BF752FC6}|DAL_CarSales\\DAL_CarSales.csproj|solutionrelative:dal_carsales\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD7B13A-29AC-49A0-8A94-C6D58E861B49}|UTIL_CarSales\\UTIL_CarSales.csproj|D:\\CODE\\CarSales\\util_carsales\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD7B13A-29AC-49A0-8A94-C6D58E861B49}|UTIL_CarSales\\UTIL_CarSales.csproj|solutionrelative:util_carsales\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|D:\\CODE\\CarSales\\gui_carsales\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{47B948F3-BCFC-4CE2-B6E7-B02E4BAF8408}|GUI_CarSales\\GUI_CarSales.csproj|solutionrelative:gui_carsales\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,46 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\CODE\\CarSales\\utilities\\Class1.cs",
-              "RelativeDocumentMoniker": "utilities\\Class1.cs",
-              "ToolTip": "D:\\CODE\\CarSales\\utilities\\Class1.cs",
-              "RelativeToolTip": "utilities\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:53:29.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\CODE\\CarSales\\DTO_Carsales\\UserDTO.cs",
-              "RelativeDocumentMoniker": "DTO_Carsales\\UserDTO.cs",
-              "ToolTip": "D:\\CODE\\CarSales\\DTO_Carsales\\UserDTO.cs",
-              "RelativeToolTip": "DTO_Carsales\\UserDTO.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAUwHIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:47:33.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.cs",
-              "RelativeDocumentMoniker": "GUI_CarSales\\LoginForm.cs",
-              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.cs",
-              "RelativeToolTip": "GUI_CarSales\\LoginForm.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwB4AAABnAAAAAAAAAA==",
+              "Title": "CustomerMainForm.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\CustomerMainForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\CustomerMainForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\CustomerMainForm.cs",
+              "RelativeToolTip": "GUI_CarSales\\CustomerMainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T14:50:36.316Z",
+              "WhenOpened": "2025-10-15T06:14:38.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.cs",
               "RelativeDocumentMoniker": "GUI_CarSales\\LoginForm.cs",
@@ -125,45 +150,251 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbConnect.cs",
-              "DocumentMoniker": "D:\\CODE\\CarSales\\DAL_CarSales\\DbConnect.cs",
-              "RelativeDocumentMoniker": "DAL_CarSales\\DbConnect.cs",
-              "ToolTip": "D:\\CODE\\CarSales\\DAL_CarSales\\DbConnect.cs",
-              "RelativeToolTip": "DAL_CarSales\\DbConnect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\LoginForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.cs",
+              "RelativeToolTip": "GUI_CarSales\\LoginForm.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAcwLAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:21:48.932Z",
+              "WhenOpened": "2025-10-13T14:50:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminMainForm.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\AdminMainForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\AdminMainForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\AdminMainForm.cs",
+              "RelativeToolTip": "GUI_CarSales\\AdminMainForm.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwGoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:10:38.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AdminMainForm.cs [Design]",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\AdminMainForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\AdminMainForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\AdminMainForm.cs [Design]",
+              "RelativeToolTip": "GUI_CarSales\\AdminMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:40:35.82Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerMainForm.cs [Design]",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\CustomerMainForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\CustomerMainForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\CustomerMainForm.cs [Design]",
+              "RelativeToolTip": "GUI_CarSales\\CustomerMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:14:30.547Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminMainForm.Designer.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\AdminMainForm.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\AdminMainForm.Designer.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\AdminMainForm.Designer.cs",
+              "RelativeToolTip": "GUI_CarSales\\AdminMainForm.Designer.cs",
+              "ViewState": "AgIAABIDAAAAAAAAAAAQwDEDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:40:44.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeMainForm.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\EmployeeMainForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\EmployeeMainForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\EmployeeMainForm.cs",
+              "RelativeToolTip": "GUI_CarSales\\EmployeeMainForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:13:00.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeMainForm.cs [Design]",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\EmployeeMainForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\EmployeeMainForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\EmployeeMainForm.cs [Design]",
+              "RelativeToolTip": "GUI_CarSales\\EmployeeMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:12:52.889Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardBLL.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\BLL_CarSales\\DashboardBLL.cs",
+              "RelativeDocumentMoniker": "BLL_CarSales\\DashboardBLL.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\BLL_CarSales\\DashboardBLL.cs",
+              "RelativeToolTip": "BLL_CarSales\\DashboardBLL.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:40:11.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardDAL.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\DAL_CarSales\\DashboardDAL.cs",
+              "RelativeDocumentMoniker": "DAL_CarSales\\DashboardDAL.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\DAL_CarSales\\DashboardDAL.cs",
+              "RelativeToolTip": "DAL_CarSales\\DashboardDAL.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAmwCUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:36:11.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.Designer.cs",
+              "RelativeToolTip": "GUI_CarSales\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAAIQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:58:48.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\RegisterForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "GUI_CarSales\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T13:03:51.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\DTO_Carsales\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO_Carsales\\UserDTO.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\DTO_Carsales\\UserDTO.cs",
+              "RelativeToolTip": "DTO_Carsales\\UserDTO.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAmwLQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T10:47:33.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GUI_CarSales",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\GUI_CarSales.csproj",
+              "RelativeDocumentMoniker": "GUI_CarSales\\GUI_CarSales.csproj",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\GUI_CarSales.csproj",
+              "RelativeToolTip": "GUI_CarSales\\GUI_CarSales.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-14T16:20:51.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\RegisterForm.Designer.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "GUI_CarSales\\RegisterForm.Designer.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAAAowD4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:06:07.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\BLL_CarSales\\UserBLL.cs",
+              "RelativeDocumentMoniker": "BLL_CarSales\\UserBLL.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\BLL_CarSales\\UserBLL.cs",
+              "RelativeToolTip": "BLL_CarSales\\UserBLL.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwHEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:21:30.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "GUI_CarSales\\RegisterForm.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\RegisterForm.cs",
+              "RelativeToolTip": "GUI_CarSales\\RegisterForm.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAowAABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T13:04:37.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DbConnect.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\DAL_CarSales\\DbConnect.cs",
+              "RelativeDocumentMoniker": "DAL_CarSales\\DbConnect.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\DAL_CarSales\\DbConnect.cs",
+              "RelativeToolTip": "DAL_CarSales\\DbConnect.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:21:48.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "UserDAL.cs",
               "DocumentMoniker": "D:\\CODE\\CarSales\\DAL_CarSales\\UserDAL.cs",
               "RelativeDocumentMoniker": "DAL_CarSales\\UserDAL.cs",
               "ToolTip": "D:\\CODE\\CarSales\\DAL_CarSales\\UserDAL.cs",
               "RelativeToolTip": "DAL_CarSales\\UserDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:25:14.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T13:25:14.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "D:\\CODE\\CarSales\\UTIL_CarSales\\SessionManager.cs",
+              "RelativeDocumentMoniker": "UTIL_CarSales\\SessionManager.cs",
+              "ToolTip": "D:\\CODE\\CarSales\\UTIL_CarSales\\SessionManager.cs",
+              "RelativeToolTip": "UTIL_CarSales\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:10:27.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "LoginForm.resx",
               "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.resx",
               "RelativeDocumentMoniker": "GUI_CarSales\\LoginForm.resx",
               "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.resx",
               "RelativeToolTip": "GUI_CarSales\\LoginForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-10-14T00:58:48.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T00:58:48.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "App.config",
               "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\App.config",
               "RelativeDocumentMoniker": "GUI_CarSales\\App.config",
@@ -171,12 +402,11 @@
               "RelativeToolTip": "GUI_CarSales\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-14T08:16:55.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T08:16:55.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\Program.cs",
               "RelativeDocumentMoniker": "GUI_CarSales\\Program.cs",
@@ -184,34 +414,7 @@
               "RelativeToolTip": "GUI_CarSales\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T12:56:08.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "GUI_CarSales\\LoginForm.Designer.cs",
-              "ToolTip": "D:\\CODE\\CarSales\\GUI_CarSales\\LoginForm.Designer.cs",
-              "RelativeToolTip": "GUI_CarSales\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T00:58:48.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserBLL.cs",
-              "DocumentMoniker": "D:\\CODE\\CarSales\\BLL_CarSales\\UserBLL.cs",
-              "RelativeDocumentMoniker": "BLL_CarSales\\UserBLL.cs",
-              "ToolTip": "D:\\CODE\\CarSales\\BLL_CarSales\\UserBLL.cs",
-              "RelativeToolTip": "BLL_CarSales\\UserBLL.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:21:30.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T12:56:08.343Z"
             }
           ]
         },

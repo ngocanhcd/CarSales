@@ -41,9 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DashboardDAL.cs" />
     <Compile Include="DbConnect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO_Carsales\DTO_CarSales.csproj">
+      <Project>{8ff18aba-08ea-44f0-a384-117b4ea4e16d}</Project>
+      <Name>DTO_CarSales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UTIL_CarSales\UTIL_CarSales.csproj">
+      <Project>{efd7b13a-29ac-49a0-8a94-c6d58e861b49}</Project>
+      <Name>UTIL_CarSales</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
