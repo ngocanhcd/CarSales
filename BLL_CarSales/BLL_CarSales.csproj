@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarBLL.cs" />
     <Compile Include="DashboardBLL.cs" />
+    <Compile Include="OrderBLL.cs" />
     <Compile Include="UserBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="using System%3b.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL_CarSales\DAL_CarSales.csproj">

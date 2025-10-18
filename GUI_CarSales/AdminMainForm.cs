@@ -36,11 +36,12 @@ namespace GUI_CarSales
             var currentUser = SessionManager.GetCurrentUser();
             lblAdminName.Text = currentUser.FullName;
 
-            // Load dữ liệu dashboard
-            LoadDashboardData();
-
             // Setup DataGridView
             SetupDataGridViews();
+
+
+            // Load dữ liệu dashboard
+            LoadDashboardData();
 
             // Gắn events cho menu buttons
             btnDashboard.Click += btnDashboard_Click;
@@ -98,16 +99,16 @@ namespace GUI_CarSales
         {
             // Setup dgvRecentOrders
             dgvRecentOrders.Columns.Clear();
-            dgvRecentOrders.Columns.Add("OrderID", "Mã Đơn");
+            dgvRecentOrders.Columns.Add("OrderID", "Mã ĐH");
             dgvRecentOrders.Columns.Add("OrderDate", "Ngày đặt");
             dgvRecentOrders.Columns.Add("CustomerName", "Khách hàng");
-            dgvRecentOrders.Columns.Add("TotalAmount", "Tổng");
+            dgvRecentOrders.Columns.Add("TotalAmount", "Tổng tiền");
             dgvRecentOrders.Columns.Add("Status", "Trạng thái");
 
-            dgvRecentOrders.Columns[0].Width = 110;
-            dgvRecentOrders.Columns[1].Width = 100;
-            dgvRecentOrders.Columns[2].Width = 100;
-            dgvRecentOrders.Columns[3].Width = 80;
+            dgvRecentOrders.Columns[0].Width = 70;
+            dgvRecentOrders.Columns[1].Width = 140;
+            dgvRecentOrders.Columns[2].Width = 130;
+            dgvRecentOrders.Columns[3].Width = 110;
             dgvRecentOrders.Columns[4].Width = 100;
 
             dgvRecentOrders.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
@@ -119,10 +120,10 @@ namespace GUI_CarSales
             dgvTopCars.Columns.Add("TotalSold", "Đã bán");
             dgvTopCars.Columns.Add("TotalRevenue", "Doanh thu");
 
-            dgvTopCars.Columns[0].Width = 100;
+            dgvTopCars.Columns[0].Width = 180;
             dgvTopCars.Columns[1].Width = 100;
-            dgvTopCars.Columns[2].Width = 100;
-            dgvTopCars.Columns[3].Width = 100;
+            dgvTopCars.Columns[2].Width = 80;
+            dgvTopCars.Columns[3].Width = 140;
 
             dgvTopCars.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvTopCars.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
@@ -190,7 +191,7 @@ namespace GUI_CarSales
                 }
 
                 // Thêm label title
-                AddTableTitle("📦 Đơn hàng gần đây", 30, 155);
+                //AddTableTitle("📦 Đơn hàng gần đây", 30, 155);
             }
             catch (Exception ex)
             {
@@ -245,7 +246,7 @@ namespace GUI_CarSales
                 }
 
                 // Thêm label title
-                AddTableTitle("🏆 Top 5 xe bán chạy nhất", 570, 155);
+                //AddTableTitle("🏆 Top 5 xe bán chạy nhất", 570, 155);
             }
             catch (Exception ex)
             {
@@ -395,49 +396,55 @@ namespace GUI_CarSales
 
         private void btnUsers_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-                "Chức năng quản lý người dùng đang được phát triển!\n\n" +
-                "Các tính năng:\n" +
-                "- Xem danh sách người dùng\n" +
-                "- Thêm/Sửa/Xóa người dùng\n" +
-                "- Phân quyền người dùng\n" +
-                "- Khóa/Mở khóa tài khoản",
-                "Thông báo",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+            // Mở form quản lý người dùng
+            UserManagementForm userForm = new UserManagementForm();
+            userForm.ShowDialog();
+
+            // Reload dashboard sau khi đóng
+            LoadDashboardData();
+            //MessageBox.Show(
+            //    "Chức năng quản lý người dùng đang được phát triển!\n\n" +
+            //    "Các tính năng:\n" +
+            //    "- Xem danh sách người dùng\n" +
+            //    "- Thêm/Sửa/Xóa người dùng\n" +
+            //    "- Phân quyền người dùng\n" +
+            //    "- Khóa/Mở khóa tài khoản",
+            //    "Thông báo",
+            //    MessageBoxButtons.OK,
+            //    MessageBoxIcon.Information
+            //);
         }
 
         private void btnCars_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-                "Chức năng quản lý xe đang được phát triển!\n\n" +
-                "Các tính năng:\n" +
-                "- Xem danh sách xe\n" +
-                "- Thêm/Sửa/Xóa xe\n" +
-                "- Quản lý loại xe\n" +
-                "- Quản lý kho\n" +
-                "- Upload hình ảnh",
-                "Thông báo",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+            // Mở form quản lý xe
+            CarManagementForm carForm = new CarManagementForm();
+            carForm.ShowDialog();
+
+            // Reload dashboard sau khi đóng
+            LoadDashboardData();
         }
 
         private void btnOrders_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-                "Chức năng quản lý đơn hàng đang được phát triển!\n\n" +
-                "Các tính năng:\n" +
-                "- Xem danh sách đơn hàng\n" +
-                "- Cập nhật trạng thái đơn hàng\n" +
-                "- Xem chi tiết đơn hàng\n" +
-                "- In hóa đơn\n" +
-                "- Hủy đơn hàng",
-                "Thông báo",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            );
+            // Mở form quản lý đơn hàng
+            OrderManagementForm orderForm = new OrderManagementForm();
+            orderForm.ShowDialog();
+
+            // Reload dashboard sau khi đóng
+            LoadDashboardData();
+            //MessageBox.Show(
+            //    "Chức năng quản lý đơn hàng đang được phát triển!\n\n" +
+            //    "Các tính năng:\n" +
+            //    "- Xem danh sách đơn hàng\n" +
+            //    "- Cập nhật trạng thái đơn hàng\n" +
+            //    "- Xem chi tiết đơn hàng\n" +
+            //    "- In hóa đơn\n" +
+            //    "- Hủy đơn hàng",
+            //    "Thông báo",
+            //    MessageBoxButtons.OK,
+            //    MessageBoxIcon.Information
+            //);
         }
 
         private void btnReports_Click(object sender, EventArgs e)
