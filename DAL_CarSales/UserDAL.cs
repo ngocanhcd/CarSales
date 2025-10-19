@@ -319,5 +319,34 @@ namespace DAL_CarSales
 
             return users;
         }
+        // Thêm vào DAL_CarSales/UserDAL.cs
+
+        public bool UpdateUserRole(string username, string role)
+        {
+            SqlConnection connection = null;
+            try
+            {
+                connection = dbConnect.GetConnection();
+                string query = "UPDATE Users SET Role = @Role WHERE Username = @Username";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Role", role);
+                command.Parameters.AddWithValue("@Username", username);
+
+                connection.Open();
+                int result = command.ExecuteNonQuery();
+                return result > 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi cập nhật role: " + ex.Message);
+            }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
+            }
+        }
+
     }
 }

@@ -24,3 +24,4 @@ D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.CarManagementForm.resources
 D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.exe.config
 D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.OrderManagementForm.resources
 D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.UserManagementForm.resources
+D:\CODE\CarSales\GUI_CarSales\obj\Debug\GUI_CarSales.EmployeeMainForm.resources

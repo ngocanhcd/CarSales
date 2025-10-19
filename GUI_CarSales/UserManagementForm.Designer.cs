@@ -23,6 +23,7 @@
         private Guna.UI2.WinForms.Guna2Button btnResetPassword;
         private Guna.UI2.WinForms.Guna2Button btnDeleteUser;
         private Guna.UI2.WinForms.Guna2Button btnClose;
+        private Guna.UI2.WinForms.Guna2Button btnAddUser;
 
         // Stats Labels
         private System.Windows.Forms.Label lblTotalUsers;
@@ -56,6 +57,7 @@
             this.btnResetPassword = new Guna.UI2.WinForms.Guna2Button();
             this.btnDeleteUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddUser = new Guna.UI2.WinForms.Guna2Button();
             this.lblTotalUsers = new System.Windows.Forms.Label();
             this.lblAdmins = new System.Windows.Forms.Label();
             this.lblEmployees = new System.Windows.Forms.Label();
@@ -72,6 +74,7 @@
             this.pnlTop.Controls.Add(this.cboRole);
             this.pnlTop.Controls.Add(this.txtSearch);
             this.pnlTop.Controls.Add(this.lblTitle);
+            this.pnlTop.Controls.Add(this.btnAddUser);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(0, 0);
             this.pnlTop.Name = "pnlTop";
@@ -281,6 +284,20 @@
             this.btnClose.TabIndex = 10;
             this.btnClose.Text = "← Đóng";
             // 
+            // btnAddUser
+            //
+            this.btnAddUser.Animated = true;
+            this.btnAddUser.BorderRadius = 8;
+            this.btnAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddUser.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.btnAddUser.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.btnAddUser.ForeColor = System.Drawing.Color.White;
+            this.btnAddUser.Location = new System.Drawing.Point(745, 62);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(130, 36);
+            this.btnAddUser.TabIndex = 20;
+            this.btnAddUser.Text = "➕ Thêm User";
+            //
             // lblTotalUsers
             // 
             this.lblTotalUsers.AutoSize = true;

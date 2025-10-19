@@ -360,5 +360,111 @@ namespace BLL_CarSales
                 };
             }
         }
+        // ==================== TẠO ĐƠN HÀNG (CUSTOMER) ====================
+        // Thêm vào OrderBLL.cs
+
+        public ApiResponse<int> CreateOrder(CheckoutDTO checkoutDTO)
+        {
+            try
+            {
+                // Validation
+                if (checkoutDTO.UserID <= 0)
+                    return new ApiResponse<int> { Success = false, Message = "UserID không hợp lệ!", Data = 0 };
+
+                if (checkoutDTO.CartItems == null || checkoutDTO.CartItems.Count == 0)
+                    return new ApiResponse<int> { Success = false, Message = "Giỏ hàng trống!", Data = 0 };
+
+                // Kiểm tra tồn kho
+                CarDAL carDAL = new CarDAL();
+                foreach (var item in checkoutDTO.CartItems)
+                {
+                    CarDTO car = carDAL.GetCarById(item.CarID);
+                    if (car == null)
+                    {
+                        return new ApiResponse<int>
+                        {
+                            Success = false,
+                            Message = $"Xe '{item.CarName}' không tồn tại!",
+                            Data = 0
+                        };
+                    }
+
+                    if (car.StockQuantity < item.Quantity)
+                    {
+                        return new ApiResponse<int>
+                        {
+                            Success = false,
+                            Message = $"Xe '{item.CarName}' chỉ còn {car.StockQuantity} chiếc!",
+                            Data = 0
+                        };
+                    }
+                }
+
+                // Tạo đơn hàng
+                int orderId = orderDAL.CreateOrder(checkoutDTO);
+
+                if (orderId > 0)
+                {
+                    return new ApiResponse<int>
+                    {
+                        Success = true,
+                        Message = $"Đặt hàng thành công! Mã đơn hàng: #{orderId}",
+                        Data = orderId
+                    };
+                }
+                else
+                {
+                    return new ApiResponse<int>
+                    {
+                        Success = false,
+                        Message = "Đặt hàng thất bại!",
+                        Data = 0
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse<int>
+                {
+                    Success = false,
+                    Message = "Lỗi: " + ex.Message,
+                    Data = 0
+                };
+            }
+        }
+
+        // ==================== LẤY ĐƠN HÀNG CỦA CUSTOMER ====================
+        public ApiResponse<List<OrderDTO>> GetOrdersByCustomerId(int userId)
+        {
+            try
+            {
+                if (userId <= 0)
+                {
+                    return new ApiResponse<List<OrderDTO>>
+                    {
+                        Success = false,
+                        Message = "UserID không hợp lệ!",
+                        Data = null
+                    };
+                }
+
+                List<OrderDTO> orders = orderDAL.GetOrdersByCustomerId(userId);
+                return new ApiResponse<List<OrderDTO>>
+                {
+                    Success = true,
+                    Message = "Lấy danh sách đơn hàng thành công",
+                    Data = orders
+                };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse<List<OrderDTO>>
+                {
+                    Success = false,
+                    Message = "Lỗi: " + ex.Message,
+                    Data = null
+                };
+            }
+        }
     }
 }

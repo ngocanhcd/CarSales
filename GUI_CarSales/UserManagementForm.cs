@@ -37,6 +37,8 @@ namespace GUI_CarSales
             btnResetPassword.Click += btnResetPassword_Click;
             btnDeleteUser.Click += btnDeleteUser_Click;
             btnClose.Click += btnClose_Click;
+            btnAddUser.Click += btnAddUser_Click;
+
         }
 
         // ==================== SETUP ====================
@@ -458,6 +460,15 @@ namespace GUI_CarSales
                 case "Employee": return "Nhân viên";
                 case "Customer": return "Khách hàng";
                 default: return role;
+            }
+        }
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            UserAddForm addForm = new UserAddForm();
+
+            if (addForm.ShowDialog() == DialogResult.OK)
+            {
+                LoadAllUsers(); // Reload danh sách
             }
         }
     }

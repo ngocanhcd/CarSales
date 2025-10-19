@@ -218,5 +218,35 @@ namespace BLL_CarSales
             string pattern = @"^[0-9]{10,11}$";
             return Regex.IsMatch(phone, pattern);
         }
+        // Thêm vào BLL_CarSales/UserBLL.cs
+
+        public ApiResponse UpdateUserRole(string username, string role)
+        {
+            try
+            {
+                // Validation
+                if (string.IsNullOrWhiteSpace(username))
+                    return new ApiResponse { Success = false, Message = "Username không hợp lệ!" };
+
+                if (string.IsNullOrWhiteSpace(role))
+                    return new ApiResponse { Success = false, Message = "Role không hợp lệ!" };
+
+                // Kiểm tra role hợp lệ
+                if (role != "Admin" && role != "Employee" && role != "Customer")
+                    return new ApiResponse { Success = false, Message = "Role phải là Admin, Employee hoặc Customer!" };
+
+                // Gọi DAL
+                bool result = userDAL.UpdateUserRole(username, role);
+
+                if (result)
+                    return new ApiResponse { Success = true, Message = "Cập nhật role thành công!" };
+                else
+                    return new ApiResponse { Success = false, Message = "Cập nhật role thất bại!" };
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse { Success = false, Message = "Lỗi: " + ex.Message };
+            }
+        }
     }
 }

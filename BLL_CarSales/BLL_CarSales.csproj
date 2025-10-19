@@ -46,7 +46,7 @@
     <Compile Include="OrderBLL.cs" />
     <Compile Include="UserBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="using System%3b.cs" />
+    <Compile Include="UserManagementBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL_CarSales\DAL_CarSales.csproj">

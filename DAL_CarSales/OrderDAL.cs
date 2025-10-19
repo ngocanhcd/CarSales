@@ -417,5 +417,137 @@ namespace DAL_CarSales
                     connection.Close();
             }
         }
+        // ==================== TẠO ĐƠN HÀNG MỚI (CUSTOMER) ====================
+        public int CreateOrder(CheckoutDTO checkoutDTO)
+        {
+            SqlConnection connection = null;
+            SqlTransaction transaction = null;
+
+            try
+            {
+                connection = dbConnect.GetConnection();
+                connection.Open();
+                transaction = connection.BeginTransaction();
+
+                // Tính tổng tiền
+                decimal totalAmount = 0;
+                foreach (var item in checkoutDTO.CartItems)
+                {
+                    totalAmount += item.TotalPrice;
+                }
+
+                // 1. Tạo Order
+                string orderQuery = @"INSERT INTO Orders (UserID, OrderDate, TotalAmount, Status)
+                             VALUES (@UserID, GETDATE(), @TotalAmount, 'Pending');
+                             SELECT SCOPE_IDENTITY();";
+
+                SqlCommand orderCmd = new SqlCommand(orderQuery, connection, transaction);
+                orderCmd.Parameters.AddWithValue("@UserID", checkoutDTO.UserID);
+                orderCmd.Parameters.AddWithValue("@TotalAmount", totalAmount);
+
+                int orderId = Convert.ToInt32(orderCmd.ExecuteScalar());
+
+                // 2. Thêm OrderItems
+                foreach (var item in checkoutDTO.CartItems)
+                {
+                    string itemQuery = @"INSERT INTO OrderItems (OrderID, CarID, Quantity, UnitPrice, Discount)
+                                VALUES (@OrderID, @CarID, @Quantity, @UnitPrice, 0)";
+
+                    SqlCommand itemCmd = new SqlCommand(itemQuery, connection, transaction);
+                    itemCmd.Parameters.AddWithValue("@OrderID", orderId);
+                    itemCmd.Parameters.AddWithValue("@CarID", item.CarID);
+                    itemCmd.Parameters.AddWithValue("@Quantity", item.Quantity);
+                    itemCmd.Parameters.AddWithValue("@UnitPrice", item.Price);
+                    itemCmd.ExecuteNonQuery();
+
+                    // Giảm số lượng tồn kho
+                    string updateStockQuery = @"UPDATE Cars 
+                                       SET StockQuantity = StockQuantity - @Quantity
+                                       WHERE CarID = @CarID";
+
+                    SqlCommand updateStockCmd = new SqlCommand(updateStockQuery, connection, transaction);
+                    updateStockCmd.Parameters.AddWithValue("@CarID", item.CarID);
+                    updateStockCmd.Parameters.AddWithValue("@Quantity", item.Quantity);
+                    updateStockCmd.ExecuteNonQuery();
+                }
+
+                // 3. Tạo Payment
+                string paymentQuery = @"INSERT INTO Payments (OrderID, PaymentMethod, PaymentStatus, Amount, PaymentDate)
+                               VALUES (@OrderID, @PaymentMethod, 'Pending', @Amount, GETDATE())";
+
+                SqlCommand paymentCmd = new SqlCommand(paymentQuery, connection, transaction);
+                paymentCmd.Parameters.AddWithValue("@OrderID", orderId);
+                paymentCmd.Parameters.AddWithValue("@PaymentMethod", checkoutDTO.PaymentMethod ?? "Bank Transfer");
+                paymentCmd.Parameters.AddWithValue("@Amount", totalAmount);
+                paymentCmd.ExecuteNonQuery();
+
+                transaction.Commit();
+                return orderId;
+            }
+            catch (Exception ex)
+            {
+                if (transaction != null)
+                    transaction.Rollback();
+
+                throw new Exception("Lỗi tạo đơn hàng: " + ex.Message);
+            }
+            finally
+            {
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
+            }
+        }
+
+        // ==================== LẤY ĐƠN HÀNG CỦA CUSTOMER ====================
+        public List<OrderDTO> GetOrdersByCustomerId(int userId)
+        {
+            List<OrderDTO> orders = new List<OrderDTO>();
+            SqlConnection connection = null;
+            SqlDataReader reader = null;
+
+            try
+            {
+                connection = dbConnect.GetConnection();
+                string query = @"SELECT o.OrderID, o.UserID, o.OrderDate, o.TotalAmount, o.Status,
+                        u.FullName as CustomerName
+                        FROM Orders o
+                        LEFT JOIN Users u ON o.UserID = u.UserID
+                        WHERE o.UserID = @UserID
+                        ORDER BY o.OrderDate DESC";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@UserID", userId);
+
+                connection.Open();
+                reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    OrderDTO order = new OrderDTO
+                    {
+                        OrderID = Convert.ToInt32(reader["OrderID"]),
+                        UserID = Convert.ToInt32(reader["UserID"]),
+                        OrderDate = Convert.ToDateTime(reader["OrderDate"]),
+                        TotalAmount = Convert.ToDecimal(reader["TotalAmount"]),
+                        Status = reader["Status"].ToString(),
+                        CustomerName = reader["CustomerName"] != DBNull.Value ? reader["CustomerName"].ToString() : "N/A"
+                    };
+                    orders.Add(order);
+                }
+
+                return orders;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi lấy đơn hàng: " + ex.Message);
+            }
+            finally
+            {
+                if (reader != null && !reader.IsClosed)
+                    reader.Close();
+                if (connection != null && connection.State == ConnectionState.Open)
+                    connection.Close();
+            }
+        }
     }
 }

@@ -128,6 +128,35 @@ namespace DTO_Carsales
         public decimal Amount { get; set; }
     }
 
+    // ==================== CART DTOs ====================
+
+    public class CartItemDTO
+    {
+        public int CarID { get; set; }
+        public string CarName { get; set; }
+        public string CarTypeName { get; set; }
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
+        public decimal TotalPrice { get; set; }
+        public string ImagePath { get; set; }
+    }
+
+    public class CheckoutDTO
+    {
+        public int UserID { get; set; }
+        public System.Collections.Generic.List<CartItemDTO> CartItems { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string PaymentMethod { get; set; }
+    }
+
+    public class CreateOrderItemDTO
+    {
+        public int CarID { get; set; }
+        public int Quantity { get; set; }
+        public decimal UnitPrice { get; set; }
+        public decimal Discount { get; set; }
+    }
+
     // ==================== RESPONSE DTOs ====================
     public class ApiResponse<T>
     {
